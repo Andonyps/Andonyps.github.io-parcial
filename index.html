@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Divisas a Quetzales</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h1>Conversor de Divisas a Quetzales</h1>
+
+    <div class="convertidor">
+        <label for="monto">Monto Dólar USD:</label>
+        <input type="number" id="monto" placeholder="Ingrese el monto" required>
+    </div>
+    <div class="convertidor2">
+        <label for="monto2">Monto Dólar Canadiense:</label>
+        <input type="number" id="monto2" placeholder="Ingrese el monto" required>
+    </div>
+    <div class="convertidor3">
+        <label for="monto3">Monto Euro:</label>
+        <input type="number" id="monto3" placeholder="Ingrese el monto" required>
+    </div>
+
+    <button onclick="convertir()">Convertir</button>
+    <button onclick="limpiar()">Limpiar</button>
+    <button onclick="imprimir()">Imprimir</button>
+    <h2 id="resultado1">Resultado USD - comision: Q0.00</h2>
+    <h2 id="resultado2">Resultado CAD - comision: Q0.00</h2>
+    <h2 id="resultado3">Resultado EUR - comision: Q0.00</h2>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
